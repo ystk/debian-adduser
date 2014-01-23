@@ -1,3 +1,46 @@
+adduser (3.113+nmu3) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix translated manpages. Closes: #670579
+  * Restore Portuguese manpages translations from 3.112+nmu2.
+  * New Danish manpages translation (Joe Hansen). Closes: #672576
+
+ -- David Prévot <taffit@debian.org>  Tue, 15 May 2012 16:46:45 -0400
+
+adduser (3.113+nmu2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Support multi-arch: (closes: #672886)
+    - Mark adduser as foreign.
+
+ -- Bastian Blank <waldi@debian.org>  Mon, 14 May 2012 13:47:27 +0000
+
+adduser (3.113+nmu1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Re-add missing translations in po/ and doc/po4a/po
+    Closes: #651114, #645951
+  * Manpages translations:
+    - Spanish. Closes: #636240
+  * Fix pending l10n issues. Debconf translations:
+    - Serbian (Zlatan Todoric).  Closes: #634980
+    - Serbian Latin (Zlatan Todoric).  Closes: #634982
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 21 Jan 2012 09:00:03 +0100
+
+adduser (3.113) unstable; urgency=low
+
+  * Warning to STDERR (closes: #561864)
+  * Use unlink on symlinks (closes: #609156)
+  * Keep test from complaining (closes: #613009)
+  * Use db_settitle instead of db_title (closes: #560313)
+  * Add newline to deluser output (closes: #592629)
+  * Don't go wrong if user or group is 0, although, please, stop that
+    (closes: #617480)
+  * Add afs to EXCLUDE_FSTYPES by default (closes: #630340)
+
+ -- Stephen Gran <sgran@debian.org>  Mon, 13 Jun 2011 08:15:58 +0100
+
 adduser (3.112+nmu2) unstable; urgency=low
 
   * Non-maintainer upload.

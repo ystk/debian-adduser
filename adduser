@@ -450,7 +450,7 @@ if ($action eq "addsysuser") {
 	      if ($?>>8);
 	    &cleanup(sprintf((gtx("`%s' exited from signal %d. Exiting.\n")), "$chage -M 99999 $new_name", $?&255));
 	} else {
-	    printf (gtx("%s failed with return code 15, shadow not enabled, password aging cannot be set. Continuing.\n"), $chage);
+            printf STDERR (gtx("%s failed with return code 15, shadow not enabled, password aging cannot be set. Continuing.\n"), $chage);
 	}
     }
     &invalidate_nscd();

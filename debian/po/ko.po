@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: adduser\n"
 "Report-Msgid-Bugs-To: adduser@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-23 16:11+0000\n"
+"POT-Creation-Date: 2011-06-13 19:26+0000\n"
 "PO-Revision-Date: 2007-06-30 08:26-0500\n"
 "Last-Translator: Sunjae Park <darehanl@gmail.com>\n"
 "Language-Team: Korean <debian-l10n-korean@lists.debian.org>\n"
@@ -14,13 +14,13 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid "Do you want system-wide readable home directories?"
 msgstr "홈 디렉토리를 시스템 전체에서 읽을 수 있도록 할까요?"
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid ""
 "By default, users' home directories are readable by all users on the system. "
 "If you want to increase security and privacy, you might want home "
@@ -33,7 +33,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid ""
 "This will only affect home directories of users added from now on with the "
 "adduser command."

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: manpages-de\n"
-"POT-Creation-Date: 2010-11-02 14:09-0400\n"
+"POT-Creation-Date: 2011-06-13 19:26+0000\n"
 "PO-Revision-Date: 2010-11-16 18:17+0100\n"
 "Last-Translator: Martin Eberhard Schauer <Martin.E.Schauer@gmx.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -1861,11 +1861,11 @@ msgstr "B<EXCLUDE_FSTYPES>"
 msgid ""
 "A regular expression which describes all file systems which should be "
 "excluded when looking for files of a user to be deleted. Defaults to \"(proc|"
-"sysfs|usbfs|devpts|tmpfs)\"."
+"sysfs|usbfs|devpts|tmpfs|afs)\"."
 msgstr ""
 "Dieser reguläre Ausdruck beschreibt alle Dateisysteme, die nicht durchsucht "
 "werden, wenn Dateien eines Benutzers gelöscht werden sollen. Der "
-"Standardwert ist »(proc|sysfs|usbfs|devpts|tmpfs)«."
+"Standardwert ist »(proc|sysfs|usbfs|devpts|tmpfs|afs)«."
 
 #. type: Plain text
 #: ../deluser.conf.5:76

@@ -3,7 +3,7 @@ Section: admin
 Priority: important
 Maintainer: Debian Adduser Developers <adduser-devel@lists.alioth.debian.org>
 Uploaders: Joerg Hoh <joerg@joerghoh.de>, Roland Bauerschmidt <rb@debian.org>, Stephen Gran <sgran@debian.org>
-Standards-Version: 3.8.3
+Standards-Version: 3.9.2
 Build-Depends: po-debconf
 Build-Depends-Indep: gettext (>= 0.13), po4a (>= 0.31)
 Vcs-Svn: svn://svn.debian.org/adduser/
@@ -12,6 +12,7 @@ Homepage: http://alioth.debian.org/projects/adduser/
 
 Package: adduser
 Architecture: all
+Multi-Arch: foreign
 Depends: perl-base (>=5.6.0), passwd (>= 1:4.0.12), debconf | debconf-2.0
 Suggests: liblocale-gettext-perl, perl-modules
 Replaces: manpages-pl (<= 20051117-1), manpages-it (<< 0.3.4-2)

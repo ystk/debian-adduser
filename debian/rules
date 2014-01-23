@@ -46,7 +46,9 @@ binary-indep:	checkroot build
 		debian/tmp/usr/share/man/pt/man5 \
 		debian/tmp/usr/share/man/pt/man8 \
 		debian/tmp/usr/share/man/de/man5 \
-		debian/tmp/usr/share/man/de/man8
+		debian/tmp/usr/share/man/de/man8 \
+		debian/tmp/usr/share/man/da/man5 \
+		debian/tmp/usr/share/man/da/man8
 	sed -e s/VERSION/$(version)/g adduser > debian/tmp/usr/sbin/adduser
 	sed -e s/VERSION/$(version)/g deluser > debian/tmp/usr/sbin/deluser
 	sed -e s/VERSION/$(version)/g AdduserCommon.pm > debian/tmp/usr/share/perl5/Debian/AdduserCommon.pm

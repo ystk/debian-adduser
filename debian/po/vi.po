@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: adduser 3.103\n"
 "Report-Msgid-Bugs-To: adduser@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-23 16:11+0000\n"
+"POT-Creation-Date: 2011-06-13 19:26+0000\n"
 "PO-Revision-Date: 2007-07-01 20:22+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid "Do you want system-wide readable home directories?"
 msgstr ""
 "Bạn có muốn cho phép toàn hệ thống đọc các thư mục chính của người dùng "
@@ -27,7 +27,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid ""
 "By default, users' home directories are readable by all users on the system. "
 "If you want to increase security and privacy, you might want home "
@@ -41,7 +41,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid ""
 "This will only affect home directories of users added from now on with the "
 "adduser command."

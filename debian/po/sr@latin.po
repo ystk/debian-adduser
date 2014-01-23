@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2011
+# This file is distributed under the same license as the adduser package.
+# Zlatan Todoric <zlatan.todoric@gmail.com>, 2011.
 #
 #, fuzzy
 msgid ""
@@ -10,18 +10,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: adduser@packages.debian.org\n"
 "POT-Creation-Date: 2011-06-13 19:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Zlatan Todoric <zlatan.todoric@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: boolean
 #. Description
 #: ../templates:3001
 msgid "Do you want system-wide readable home directories?"
-msgstr ""
+msgstr "Da li želite da cijeli sistem očitava korisničke direktorijume?"
 
 #. Type: boolean
 #. Description
@@ -32,6 +32,10 @@ msgid ""
 "directories to be readable only for their owners. But if in doubt, leave "
 "this option enabled."
 msgstr ""
+"Podrazumijevano je, da su korisnički direktorijumi čitljivi svim korisnicima."
+"Ako želite da povećate sigurnost i privatnost, možda biste željeli da "
+"korisničkidirekotorijumi budu čitljivi samo za vlasnike. Ako ste u "
+"nedoumici, ostaviteovu opciju omogućenom."
 
 #. Type: boolean
 #. Description
@@ -40,3 +44,5 @@ msgid ""
 "This will only affect home directories of users added from now on with the "
 "adduser command."
 msgstr ""
+"Ovo će uticati samo na korisničke direktorijume korisnika koji će biti "
+"pridodatiod sada <adduser> komandom."

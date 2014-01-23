@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: adduser_3.51_el\n"
 "Report-Msgid-Bugs-To: adduser@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-23 16:11+0000\n"
+"POT-Creation-Date: 2011-06-13 19:26+0000\n"
 "PO-Revision-Date: 2004-03-28 20:45EEST\n"
 "Last-Translator: Konstantinos Margaritis <markos@debian.org>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 #, fuzzy
 #| msgid "Do you want system wide readable home directories?"
 msgid "Do you want system-wide readable home directories?"
@@ -36,7 +36,7 @@ msgstr "Θέλετε οι κατάλογοι των χρηστών να είνα
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 #, fuzzy
 msgid ""
 "By default, users' home directories are readable by all users on the system. "
@@ -52,7 +52,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 #, fuzzy
 #| msgid ""
 #| "This will only affect home directories of users added with the adduser "

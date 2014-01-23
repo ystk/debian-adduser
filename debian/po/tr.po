@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: adduser\n"
 "Report-Msgid-Bugs-To: adduser@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-23 16:11+0000\n"
+"POT-Creation-Date: 2011-06-13 19:26+0000\n"
 "PO-Revision-Date: 2006-07-18 16:54+0300\n"
 "Last-Translator: Erçin EKER <ercin.eker@linux.org.tr>\n"
 "Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 #, fuzzy
 #| msgid "Do you want system wide readable home directories?"
 msgid "Do you want system-wide readable home directories?"
@@ -27,7 +27,7 @@ msgstr "Ev dizinlerinin herkes tarafından okunabilmesini ister misiniz?"
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 #, fuzzy
 #| msgid ""
 #| "Normally, home directories can be viewed by all users on the system. If "
@@ -48,7 +48,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 #, fuzzy
 #| msgid ""
 #| "This will only affect home directories of users added with the adduser "

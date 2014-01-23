@@ -1820,11 +1820,11 @@ msgstr "B<EXCLUDE_FSTYPES>"
 msgid ""
 "A regular expression which describes all file systems which should be "
 "excluded when looking for files of a user to be deleted. Defaults to \"(proc|"
-"sysfs|usbfs|devpts|tmpfs)\"."
+"sysfs|usbfs|devpts|tmpfs|afs)\"."
 msgstr ""
 "Wyrażenie regularne opisująca wszystkie systemy plików, które powinny być "
 "pominięte podczas wyszukiwania plików użytkownika przeznaczonych do "
-"usunięcia. Wartość domyślna to \"(proc|sysfs|usbfs|devpts|tmpfs)\"."
+"usunięcia. Wartość domyślna to \"(proc|sysfs|usbfs|devpts|tmpfs|afs)\"."
 
 #. type: Plain text
 #: ../deluser.conf.5:76

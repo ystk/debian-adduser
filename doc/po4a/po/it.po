@@ -66,9 +66,8 @@ msgid ""
 "password] [--disabled-login] [--gecos GECOS] [--add_extra_groups] user"
 msgstr ""
 "B<adduser> [opzioni] [--home DIR] [--shell SHELL] [--no-create-home] [--uid "
-"ID] [--firstuid ID] [--lastuid ID] [--ingroup GRUPPO | --gid ID] [--"
-"disabled-password] [--disabled-login] [--gecos GECOS] [--add_extra_groups] "
-"utente"
+"ID] [--firstuid ID] [--lastuid ID] [--ingroup GRUPPO | --gid ID] [--disabled-"
+"password] [--disabled-login] [--gecos GECOS] [--add_extra_groups] utente"
 
 # type: Plain text
 #. type: Plain text
@@ -816,6 +815,7 @@ msgstr ""
 "creato da adduser oppure l'utente era già presente sul sistema prima di "
 "richiamare adduser. Se adduser ha restituito 0, una seconda chiamata di "
 "adduser con gli stessi parametri restituisce ancora una volta 0."
+
 # type: TP
 #. type: TP
 #: ../adduser.8:282 ../deluser.8:146
@@ -2032,11 +2032,11 @@ msgstr "B<EXCLUDE_FSTYPES>"
 msgid ""
 "A regular expression which describes all file systems which should be "
 "excluded when looking for files of a user to be deleted. Defaults to \"(proc|"
-"sysfs|usbfs|devpts|tmpfs)\"."
+"sysfs|usbfs|devpts|tmpfs|afs)\"."
 msgstr ""
 "Una espressione regolare che indica quali file system devono essere esclusi "
 "durante la ricerca dei file dell'utente da eliminare. Il valore predefinito "
-"è \"(proc|sysfs|usbfs|devpts|tmpfs)\"."
+"è \"(proc|sysfs|usbfs|devpts|tmpfs|afs)\"."
 
 # type: Plain text
 #. type: Plain text

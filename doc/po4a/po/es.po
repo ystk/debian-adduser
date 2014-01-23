@@ -1,13 +1,11 @@
 # adduser manpages translation to Spanish
-# Copyright (C) 2010 Software in the Public Interest
+# Copyright (C) 2010, 2011 Software in the Public Interest
 # This file is distributed under the same license as the adduser package.
 #
 # Changes:
-#   - Initial translation
-#       Rubén Porras Campo
-#
-#   - Updates
-#       Omar Campagne Polaino, 2010 <ocampagne@gmail.com>
+# Rubén Porras Campo
+# - Updates
+# Omar Campagne Polaino, 2010, 2011 <ocampagne@gmail.com>
 #
 # Traductores, si no conocen el formato PO, merece la pena leer la
 # documentación de gettext, especialmente las secciones dedicadas a este
@@ -26,12 +24,11 @@
 #   - La guía de traducción de po's de debconf:
 #     /usr/share/doc/po-debconf/README-trans
 #     o http://www.debian.org/intl/l10n/po-debconf/README-trans
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: adduser 3.112\n"
-"POT-Creation-Date: 2010-11-02 14:09-0400\n"
-"PO-Revision-Date: 2010-11-04 01:11+0200\n"
+"Project-Id-Version: adduser 3.113\n"
+"POT-Creation-Date: 2011-06-13 19:26+0000\n"
+"PO-Revision-Date: 2011-07-16 16:59+0200\n"
 "Last-Translator: Omar Campagne <ocampagne@gmail.com>\n"
 "Language-Team: Debian l10n Spanish <debian-l10n-spanish@lists.debian.org>\n"
 "Language: es\n"
@@ -39,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.6.1\n"
+"X-Generator: Virtaal 0.7.0\n"
 
 # type: TH
 #. type: TH
@@ -92,8 +89,8 @@ msgid ""
 msgstr ""
 "B<adduser> [opciones] [--home DIRECTORIO] [--shell CONSOLA] [--no-create-"
 "home] [--uid ID] [--firstuid ID] [--lastuid ID] [--ingroup GRUPO | --gid ID] "
-"[--disabled-password] [--disabled-login] [--gecos GECOS] [--add_extra_groups] "
-"USUARIO"
+"[--disabled-password] [--disabled-login] [--gecos GECOS] [--"
+"add_extra_groups] USUARIO"
 
 # type: Plain text
 #. type: Plain text
@@ -138,7 +135,8 @@ msgstr "OPCIONES COMUNES"
 msgid ""
 "[--quiet] [--debug] [--force-badname] [--help|-h] [--version] [--conf FILE]"
 msgstr ""
-"[--quiet] [--debug] [--force-badname] [--help|-h] [--version] [--conf FICHERO]"
+"[--quiet] [--debug] [--force-badname] [--help|-h] [--version] [--conf "
+"FICHERO]"
 
 # type: SH
 #. type: SH
@@ -160,14 +158,14 @@ msgid ""
 "B<addgroup> can be run in one of five modes:"
 msgstr ""
 "B<adduser> y B<addgroup> añaden usuarios y grupos al sistema de acuerdo a "
-"las opciones de la línea de órdenes y a la configuración en "
-"I</etc/adduser.conf>. Ofrecen una interfaz más sencilla para programas "
-"de bajo nivel como B<useradd>, B<groupadd> y B<usermod>, seleccionando "
-"valores para el identificador de usuario (UID) e identificador de grupo de "
-"usuarios (GID) conformes con las normas de Debian. También crean un "
-"directorio personal («/home/USUARIO») con la configuración predeterminada, "
-"ejecutan un script personalizado y otras funcionalidades. B<adduser> y "
-"B<addgroup> pueden ejecutarse de cinco maneras distintas:"
+"las opciones de la línea de órdenes y a la configuración en I</etc/adduser."
+"conf>. Ofrecen una interfaz más sencilla para programas de bajo nivel como "
+"B<useradd>, B<groupadd> y B<usermod>, seleccionando valores para el "
+"identificador de usuario (UID) e identificador de grupo de usuarios (GID) "
+"conforme a las normas de Debian. También crean un directorio personal («/"
+"home/USUARIO») con la configuración predeterminada, ejecutan un script "
+"personalizado y otras funcionalidades. B<adduser> y B<addgroup> pueden "
+"ejecutarse de cinco maneras distintas:"
 
 # type: SS
 #. type: SS
@@ -205,8 +203,8 @@ msgid ""
 "The range specified in the configuration file may be overridden with the B<--"
 "firstuid> and B<--lastuid> options."
 msgstr ""
-"Puede modificar el rango especificado en el fichero de configuración "
-"usando las opciones B<--firstuid> y B<--lastuid.>"
+"Puede modificar el rango especificado en el fichero de configuración usando "
+"las opciones B<--firstuid> y B<--lastuid.>"
 
 # type: Plain text
 #. type: Plain text
@@ -253,8 +251,8 @@ msgstr ""
 "B<GROUPHOMES>, y B<LETTERHOMES>. El directorio personal se puede especificar "
 "mediante la opción de línea de órdenes B<--home>, y la consola mediante la "
 "opción B<--shell>. El bit set-group-ID del directorio personal está "
-"habilitado si B<USERGROUPS> es I<yes>, de forma que cualquier fichero "
-"creado en el directorio personal del usuario tendrá el grupo correcto."
+"habilitado si B<USERGROUPS> es I<yes>, de forma que cualquier fichero creado "
+"en el directorio personal del usuario tendrá el grupo correcto."
 
 # type: Plain text
 #. type: Plain text
@@ -269,9 +267,9 @@ msgid ""
 msgstr ""
 "B<adduser> copiará los ficheros desde B<SKEL> en el directorio personal y "
 "preguntará por la información del campo gecos y por la clave. El campo gecos "
-"también se puede definir con la opción B<--gecos>. Con la opción "
-"B<--disabled-login>, la cuenta se creará pero estará deshabilitada hasta que "
-"se proporcione una clave. La opción B<--disabled-password> no establecerá la "
+"también se puede definir con la opción B<--gecos>. Con la opción B<--"
+"disabled-login>, la cuenta se creará pero estará deshabilitada hasta que se "
+"proporcione una clave. La opción B<--disabled-password> no establecerá la "
 "clave, pero todavía será posible trabajar con la cuenta, por ejemplo "
 "mediante claves SSH RSA."
 
@@ -284,8 +282,8 @@ msgid ""
 "arguments passed to B<adduser.local> are:"
 msgstr ""
 "Si existe el fichero B</usr/local/sbin/adduser.local>, se ejecutará después "
-"de que la cuenta de usuario esté lista, posibilitando realizar "
-"ajustes locales. Los argumentos que se pasan a B<adduser.local> son:"
+"de que la cuenta de usuario esté lista, posibilitando realizar ajustes "
+"locales. Los argumentos que se pasan a B<adduser.local> son:"
 
 # type: Plain text
 #. type: Plain text
@@ -344,11 +342,11 @@ msgid ""
 "that uid already exists), adduser will exit with a warning. This warning can "
 "be suppressed by adding \"--quiet\"."
 msgstr ""
-"Si se invoca con un argumento que no es ninguna opción y la opción "
-"B<--system>, B<adduser> añadirá un un usuario del sistema. Si ya existe un "
+"Si se invoca con un argumento que no es ninguna opción y la opción B<--"
+"system>, B<adduser> añadirá un un usuario del sistema. Si ya existe un "
 "usuario con el mismo nombre en el rango del sistema de UID (o si se "
-"especifica el UID y ya existe un usuario con ese UID), adduser "
-"abandonará con un aviso. Puede suprimir este aviso añadiendo «--quiet»."
+"especifica el UID y ya existe un usuario con ese UID), adduser abandonará "
+"con un aviso. Puede suprimir este aviso añadiendo «--quiet»."
 
 # type: Plain text
 #. type: Plain text
@@ -843,8 +841,8 @@ msgid ""
 "mismatch with the configured regular expressions, see adduser.conf(5). "
 "Adduser has been aborted by a signal."
 msgstr ""
-"Ha fallado la creación de un usuario o grupo porque ya existía con un "
-"UID/GID diferente del especificado. El nombre de usuario o grupo ha sido "
+"Ha fallado la creación de un usuario o grupo porque ya existía con un UID/"
+"GID diferente del especificado. El nombre de usuario o grupo ha sido "
 "rechazado por no coincidir con la expresión regular configurada. Consulte "
 "adduser.conf(5). Una señal ha cancelado la ejecución de adduser."
 
@@ -923,8 +921,8 @@ msgid ""
 "Copyright (C) 1995 Ted Hajek, with a great deal borrowed from the original "
 "Debian B<adduser>"
 msgstr ""
-"Copyright (C) 1995 Ted Hajek, con una gran aportación del B<adduser> original "
-"de Debian"
+"Copyright (C) 1995 Ted Hajek, con una gran aportación del B<adduser> "
+"original de Debian"
 
 # type: Plain text
 #. type: Plain text
@@ -951,8 +949,8 @@ msgstr "adduser.conf"
 msgid ""
 "/etc/adduser.conf - configuration file for B<adduser(8)> and B<addgroup(8)>."
 msgstr ""
-"/etc/adduser.conf - Fichero de configuración para B<adduser(8)>, B<addgroup"
-"(8)>, B<deluser(8)>, B<delgroup(8)>."
+"/etc/adduser.conf - Fichero de configuración para B<adduser(8)> y B<addgroup"
+"(8)>."
 
 # type: Plain text
 #. type: Plain text
@@ -988,7 +986,8 @@ msgstr "B<DSHELL>"
 #: ../adduser.conf.5:34
 msgid ""
 "The login shell to be used for all new users.  Defaults to I</bin/bash>."
-msgstr "La consola para todos los usuarios nuevos. Por omisión es I</bin/bash>."
+msgstr ""
+"La consola para todos los usuarios nuevos. Por omisión es I</bin/bash>."
 
 # type: TP
 #. type: TP
@@ -1039,8 +1038,8 @@ msgid ""
 "extra directory inserted which is the first letter of the loginname.  For "
 "example: I</home/u/user>.  Defaults to I<no>."
 msgstr ""
-"Si es I<yes>, los directorios personales tendrán un directorio extra con "
-"la primera letra del nombre de usuario. Por ejemplo: I</home/u/user>. Por "
+"Si es I<yes>, los directorios personales tendrán un directorio extra con la "
+"primera letra del nombre de usuario. Por ejemplo: I</home/u/user>. Por "
 "omisión es I<no>."
 
 # type: TP
@@ -1077,11 +1076,10 @@ msgid ""
 "less than 100 are unallocated."
 msgstr ""
 "define un rango de números de identificador de usuario (UID) inclusivo en el "
-"cual se pueden asignar números UID de "
-"sistema de forma dinámica. El valor por omisión es I<100> - I<999>. Tenga "
-"en cuenta que el software de sistema, como usuarios asignados por el paquete "
-"base-passwd, pueden suponer que los números UID menores de 100 no están "
-"asignados."
+"cual se pueden asignar números UID de sistema de forma dinámica. El valor "
+"por omisión es I<100> - I<999>. Tenga en cuenta que el software de sistema, "
+"como usuarios asignados por el paquete base-passwd, pueden suponer que los "
+"números UID menores de 100 no están asignados."
 
 # type: TP
 #. type: TP
@@ -1097,8 +1095,8 @@ msgid ""
 "specify an inclusive range of UIDs from which normal user's UIDs can be "
 "dynamically allocated. Default to I<1000> - I<29999>."
 msgstr ""
-"especifica un rango dinámico de identificadores para usuarios normales (ambos "
-"incluidos). Por omisión es I<1000> - I<29999>."
+"especifica un rango dinámico de identificadores para usuarios normales "
+"(ambos incluidos). Por omisión es I<1000> - I<29999>."
 
 # type: TP
 #. type: TP
@@ -1150,9 +1148,9 @@ msgid ""
 "group to use.  If this is I<no>, then each created user will be placed in "
 "the group whose GID is B<USERS_GID> (see below).  The default is I<yes>."
 msgstr ""
-"Si es I<yes>, entonces cada usuario creado tendrá su propio grupo. "
-"Si es I<no>, cada usuario creado tendrá como "
-"grupo aquél cuyo GID es B<USERS_GID> (lea más abajo). Por omisión es I<yes>."
+"Si es I<yes>, entonces cada usuario creado tendrá su propio grupo. Si es "
+"I<no>, cada usuario creado tendrá como grupo aquél cuyo GID es B<USERS_GID> "
+"(lea más abajo). Por omisión es I<yes>."
 
 # type: TP
 #. type: TP
@@ -1247,8 +1245,8 @@ msgid ""
 msgstr ""
 "Los nombres de grupo y usuario se comparan con esta expresión regular. Si el "
 "nombre no coincide con la expresión regular, adduser rechazará crear "
-"usuarios y grupos a menos que se defina «--force-badname». Si se define "
-"«--force-badname», sólo se realizarán comprobaciones débiles. El valor por "
+"usuarios y grupos a menos que se defina «--force-badname». Si se define «--"
+"force-badname», sólo se realizarán comprobaciones débiles. El valor por "
 "omisión, más conservador, es ^[a-z][-a-z0-9]*$."
 
 # type: TP
@@ -1374,8 +1372,8 @@ msgid ""
 "B<deluser> [options] [--force] [--remove-home] [--remove-all-files] [--"
 "backup] [--backup-to DIR] user"
 msgstr ""
-"B<deluser> [opciones] [--force] [--remove-home] [--remove-all-files] "
-"[--backup] [--backup-to DIRECTORIO] usuario"
+"B<deluser> [opciones] [--force] [--remove-home] [--remove-all-files] [--"
+"backup] [--backup-to DIRECTORIO] usuario"
 
 # type: Plain text
 #. type: Plain text
@@ -1435,8 +1433,8 @@ msgid ""
 "If called with one non-option argument and without the B<--group> option, "
 "B<deluser> will remove a normal user."
 msgstr ""
-"Si se invoca con un argumento que no es ninguna opción y sin la opción "
-"B<--group>, B<deluser> eliminará un usuario normal."
+"Si se invoca con un argumento que no es ninguna opción y sin la opción B<--"
+"group>, B<deluser> eliminará un usuario normal."
 
 # type: Plain text
 #. type: Plain text
@@ -1449,8 +1447,8 @@ msgid ""
 msgstr ""
 "Por omisión, B<deluser> eliminará el usuario, pero no su directorio personal "
 "ni su directorio de cola de correo (n.t. mail spool) o cualquier otro "
-"fichero del sistema perteneciente al usuario. Puede usar la opción "
-"B<--remove-home> para eliminar el directorio personal y de cola de correo."
+"fichero del sistema perteneciente al usuario. Puede usar la opción B<--"
+"remove-home> para eliminar el directorio personal y de cola de correo."
 
 # type: Plain text
 #. type: Plain text
@@ -1462,8 +1460,8 @@ msgid ""
 "already covered by the B<--remove-all-files> option."
 msgstr ""
 "La opción B<--remove-all-files> elimina todos los ficheros pertenecientes al "
-"usuario en el sistema. Tenga en cuenta que si activa ambas opciones "
-"B<--remove-home> no tiene ningún efecto porque B<--remove-all-files> es una "
+"usuario en el sistema. Tenga en cuenta que si activa ambas opciones B<--"
+"remove-home> no tiene ningún efecto porque B<--remove-all-files> es una "
 "opción más general."
 
 # type: Plain text
@@ -1478,12 +1476,12 @@ msgid ""
 "(5)> for details."
 msgstr ""
 "Si quiere hacer una copia de seguridad de todos los ficheros antes de "
-"eliminarlos use la opción B<--backup> que creará un fichero nombreusuario.tar "
-"(.gz|.bz2) en el directorio especificado por la opción B<--backup-to> (el "
-"directorio de trabajo actual de forma predeterminada). Ambas opciones, la de "
-"eliminación y la de copias de seguridad se pueden especificar como "
-"predeterminadas en el fichero «/etc/deluser.conf». Consulte "
-"B<deluser.conf(5)> para más detalles."
+"eliminarlos use la opción B<--backup> que creará un fichero nombreusuario."
+"tar (.gz|.bz2) en el directorio especificado por la opción B<--backup-to> "
+"(el directorio de trabajo actual de forma predeterminada). Ambas opciones, "
+"la de eliminación y la de copias de seguridad se pueden especificar como "
+"predeterminadas en el fichero «/etc/deluser.conf». Consulte B<deluser.conf(5)"
+"> para más detalles."
 
 #. type: Plain text
 #: ../deluser.8:74
@@ -1491,8 +1489,8 @@ msgid ""
 "If you want to remove the root account (uid 0), then use the B<--force> "
 "parameter; this may prevent to remove the root user by accident."
 msgstr ""
-"Si desea eliminar la cuenta del usuario «root» (UID 0), use el parámetro "
-"B<--force>; esto puede evitar la eliminación accidental del usuario «root»."
+"Si desea eliminar la cuenta del usuario «root» (UID 0), use el parámetro B<--"
+"force>; esto puede evitar la eliminación accidental del usuario «root»."
 
 # type: Plain text
 #. type: Plain text
@@ -1609,8 +1607,8 @@ msgid ""
 "named /$user.tar.bz2 or /$user.tar.gz."
 msgstr ""
 "Crea una copia de respaldo de todos los ficheros contenidos en el directorio "
-"personal del usuario y el fichero de cola de correo a un fichero "
-"llamado «/$user.tar.bz2» o «/$user.tar.gz»."
+"personal del usuario y el fichero de cola de correo a un fichero llamado «/"
+"$user.tar.bz2» o «/$user.tar.gz»."
 
 # type: TP
 #. type: TP
@@ -1869,9 +1867,9 @@ msgid ""
 "deluser(8) and delgroup(8) also read /etc/adduser.conf, see adduser.conf(8); "
 "settings in deluser.conf may overwrite settings made in adduser.conf."
 msgstr ""
-"deluser(8) y delgroup(8) también leen «/etc/adduser.conf», consulte "
-"adduser.conf(8); las opciones de configuración en «deluser.conf» pueden "
-"anular la configuración en «adduser.conf»."
+"deluser(8) y delgroup(8) también leen «/etc/adduser.conf», consulte adduser."
+"conf(8); las opciones de configuración en «deluser.conf» pueden anular la "
+"configuración en «adduser.conf»."
 
 # type: TP
 #. type: TP
@@ -1928,8 +1926,7 @@ msgstr ""
 "copia de respaldo de todos los ficheros antes de eliminarlos. La copia de "
 "respaldo creada se nombrará nombreusuario.tar(.gz|.bz2) por omisión, en el "
 "directorio especificado por la opción B<BACKUP_TO>. El método de compresión "
-"se selecciona entre los mejores disponibles. Los valores pueden ser 1 o "
-"cero."
+"se selecciona entre los mejores disponibles. Los valores pueden ser 1 o cero."
 
 # type: TP
 #. type: TP
@@ -1968,9 +1965,9 @@ msgstr ""
 "Una lista de expresiones regulares separadas por espacios. Todos los "
 "ficheros a eliminar durante la eliminación de directorios personales, o de "
 "ficheros propiedad del usuario, se comparan con estas expresiones regulares. "
-"El fichero no se eliminará si se detecta una coincidencia. El "
-"comportamiento predeterminado es una lista de directorios del sistema, "
-"omitiendo sólo «/home»."
+"El fichero no se eliminará si se detecta una coincidencia. El comportamiento "
+"predeterminado es una lista de directorios del sistema, omitiendo sólo «/"
+"home»."
 
 #. type: Plain text
 #: ../deluser.conf.5:66
@@ -2007,11 +2004,11 @@ msgstr "B<EXCLUDE_FSTYPES>"
 msgid ""
 "A regular expression which describes all file systems which should be "
 "excluded when looking for files of a user to be deleted. Defaults to \"(proc|"
-"sysfs|usbfs|devpts|tmpfs)\"."
+"sysfs|usbfs|devpts|tmpfs|afs)\"."
 msgstr ""
 "Una expresión regular que describe todos los sistemas de ficheros a excluir "
 "al buscar los ficheros de un usuario a eliminar. El valor predeterminado es "
-"«(proc|sysfs|usbfs|devpts|tmpfs)»."
+"«(proc|sysfs|usbfs|devpts|tmpfs|afs)»."
 
 # type: Plain text
 #. type: Plain text

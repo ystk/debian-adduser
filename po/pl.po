@@ -180,7 +180,7 @@ msgstr "\"%s\" zwrócił kod błędu %d. Kończenie.\n"
 #: ../adduser:451 ../AdduserCommon.pm:164
 #, perl-format
 msgid "`%s' exited from signal %d. Exiting.\n"
-msgstr "\"%d\" zakończony z powodu sygnału %d. Kończenie.\n"
+msgstr "\"%s\" zakończony z powodu sygnału %d. Kończenie.\n"
 
 #: ../adduser:453
 #, perl-format

@@ -7,6 +7,10 @@
 # Even minor modifications require translation updates and such
 # changes should be coordinated with translators and reviewers.
 
+Template: adduser/title
+Type: title
+Description: Adduser
+
 Template: adduser/homedir-permission
 Type: boolean
 Default: true

@@ -1990,11 +1990,11 @@ msgstr "B<EXCLUDE_FSTYPES>"
 msgid ""
 "A regular expression which describes all file systems which should be "
 "excluded when looking for files of a user to be deleted. Defaults to \"(proc|"
-"sysfs|usbfs|devpts|tmpfs)\"."
+"sysfs|usbfs|devpts|tmpfs|afs)\"."
 msgstr ""
 "Ett reguljärt uttryck som beskriver alla filsystem som bör undantas när "
 "sökning efter vilka filer som ska tas bort för en användare. Standard är "
-"\"(proc|sysfs|usbfs|devpts|tmpfs)\"."
+"\"(proc|sysfs|usbfs|devpts|tmpfs|afs)\"."
 
 # type: Plain text
 #. type: Plain text
